@@ -2,18 +2,18 @@
    EDI THEME - LIGHT VERSION
    ========================================================================== */
 /* Color codes used for the theme */
-$primary-color              : #007288;
-$background                 : #041E42;
-$background-light           : #004F71;
-$text                      : #e8f5f3;
-$text-muted                : #b8d5d1;
-$link                      : #A50034;
-$link-dark                 : mix(#000, $link, 25%);
-$link-light                : mix(#fff, $link, 25%);
-$footer                    : #333F48;
-$border                    : #007288;
-$border-light              : #004F71;
-$background-lighter        : mix(#fff, $background, 90%);
+$primary-color              : #007288 !default;
+$background                 : #041E42 !default;
+$background-light           : #004F71 !default;
+$text                      : #e8f5f3 !default;
+$text-muted                : #b8d5d1 !default;
+$link                      : #A50034 !default;
+$link-dark                 : mix(#000, $link, 25%) !default;
+$link-light                : mix(#fff, $link, 25%) !default;
+$footer                    : #041E42 !default;
+$border                    : #007288 !default;
+$border-light              : #004F71 !default;
+$background-lighter        : mix(#fff, $background, 90%) !default;
 
 /* Color codes used for the site */
 $danger-color               : #e74c3c;
@@ -32,8 +32,7 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dark theme for the site */
-html[data-theme="dark"] {
+@mixin edi-theme-variables {
   --global-base-color                 : #{$primary-color};
   --global-bg-color                   : #{$background};
   --global-footer-bg-color            : #{$footer};
@@ -51,11 +50,12 @@ html[data-theme="dark"] {
   --global-text-color-light           : #{$text-muted};
   --global-thead-color                : #{$background-lighter};
 
-}
-
-/* Footer styling for dark mode */
-html[data-theme="dark"] {
   footer {
     color: #{$text};
   }
+}
+
+/* Light theme defaults for the site */
+:root {
+  @include edi-theme-variables;
 }
