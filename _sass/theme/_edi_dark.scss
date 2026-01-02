@@ -8,9 +8,12 @@ $background-light           : #004F71;
 $text                      : #e8f5f3;
 $text-muted                : #b8d5d1;
 $link                      : #A50034;
+$link-dark                 : mix(#000, $link, 25%);
+$link-light                : mix(#fff, $link, 25%);
 $footer                    : #333F48;
 $border                    : #007288;
 $border-light              : #004F71;
+$background-lighter        : mix(#fff, $background, 90%);
 
 /* Color codes used for the site */
 $danger-color               : #e74c3c;
