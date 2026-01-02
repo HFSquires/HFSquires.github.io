@@ -14,6 +14,7 @@ redirect_from:
 Final Year Master of Physics (MPhys) Student, University of Edinburgh
 
 **Personal Email:** [harrisonsquires250@gmail.com](mailto:harrisonsquires250@gmail.com)
+
 **Academic Email:** [s2191671@ed.ac.uk](mailto:s2191671@ed.ac.uk)
 ---
 
