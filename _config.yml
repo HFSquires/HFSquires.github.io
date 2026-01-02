@@ -13,7 +13,7 @@ title                    : "Harrison F. Squires"
 title_separator          : "-"
 name                     : &name "Harrison F. Squires"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://HFSquires.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : "https://HFSquires.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "HFSquires/HFSquires.github.io"
@@ -24,13 +24,13 @@ repository               : "HFSquires/HFSquires.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Harrison F. Squires"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "The University of Edinburgh"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "harrisonsquires250@gmail.com" 
 
   # Academic websites
   academia         : # URL
