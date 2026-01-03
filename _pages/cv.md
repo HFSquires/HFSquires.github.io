@@ -29,13 +29,13 @@ Research Experience
 
 **QinetiQ / The University of Edinburgh** *(June 2025 – August 2025)*  
 *Summer Research Intern*  
-- **Project:** [“Terahertz Methods for the Characterisation of Materials”]({{ "/files/QinetiQ_Literature_Review_THz_Methods.pdf" | relative_url }}). Conducted a literature-based review aimed at advising the company’s future research direction.  
+- **Project:** [“Terahertz Methods for the Characterisation of Materials”]({{ "/files/QinetiQ_Literature_Review___THz_Methods.pdf" | relative_url }}). Conducted a literature-based review aimed at advising the company’s future research direction.  
 - Summarised findings in an internal report and developed a comparative table of practical trade-offs.  
 - Funded by the University of Edinburgh through the Career Development Scholarship; project hosted by QinetiQ.
 
 **The University of Melbourne (Carbon Cybernetics)** *(July 2024 – June 2025)*  
 *Research Intern*  
-- **Project:** “On the characterisation of carbon fibre electrodes for neural recording”, supervised by Prof. Steven Prawer. (*[literature review]({{ "/files/Literature_Review_Formatted_PwYa.pdf" | relative_url }})*, *[project report]({{ "/files/On_The_Characterisation_Of_Carbon_Fibre_Electrodes_For_Neural_Recording_Report.pdf" | relative_url }})*)  
+- **Project:** “On the characterisation of carbon fibre electrodes for neural recording”, supervised by Prof. Steven Prawer. (*[literature review]({{ "/files/Literature_Review_Formatted___PwYa.pdf" | relative_url }})*, *[project report]({{ "/files/On_The_Characterisation_Of_Carbon_Fibre_Electrodes_For_Neural_Recording_Report.pdf" | relative_url }})*)  
 - *Modelling of Intracortical Microwire Electrodes for Brain–Machine Interfaces.* Manuscript in preparation. Contributing author.  
 - Designed and built a bench-top testing system to optimise carbon fibre Micro Electrode Array (MEA) performance.  
 - Undertook a meta-analysis of *in vivo* datasets to inform optimal MEA design.  
