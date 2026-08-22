@@ -168,12 +168,14 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
+  display: block;
+  width: 100%;
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
   position: relative;
-  cursor: pointer;
+  cursor: default;
+  margin-top: 1rem;
 
   li:last-child {
     a {
@@ -183,29 +185,26 @@
 
   @include breakpoint($large) {
     display: block;
+    margin-top: 0;
   }
 
   button {
-    margin-bottom: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
+    display: none;
   }
 }
 
 .author__urls {
-  display: none;
-  position: absolute;
-  right: 0;
-  margin-top: 15px;
-  padding: 10px;
+  display: block;
+  position: relative;
+  right: auto;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
-  border: 1px solid var(--global-border-color);
-  border-radius: $border-radius;
-  background: var(--global-thead-color);
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  box-shadow: none;
   cursor: default;
 
   @include breakpoint($large) {
@@ -219,7 +218,7 @@
   }
 
   &:before {
-    display: block;
+    display: none;
     content: "";
     position: absolute;
     top: -11px;
@@ -236,7 +235,7 @@
   }
 
   &:after {
-    display: block;
+    display: none;
     content: "";
     position: absolute;
     top: -10px;
