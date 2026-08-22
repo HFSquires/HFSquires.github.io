@@ -2,23 +2,23 @@
    EDI THEME - LIGHT VERSION
    ========================================================================== */
 /* Color codes used for the theme */
-$primary-color              : #007288 !default;
-$background                 : #041E42 !default;
-$background-light           : #004F71 !default;
-$text                      : #e8f5f3 !default;
-$text-muted                : #b8d5d1 !default;
-$link                      : #A50034 !default;
+$primary-color              : #005f73 !default;
+$background                 : #f7f1e6 !default;
+$background-light           : #fffaf2 !default;
+$text                      : #1f2d35 !default;
+$text-muted                : #657179 !default;
+$link                      : #a50034 !default;
 $link-dark                 : mix(#000, $link, 25%) !default;
 $link-light                : mix(#fff, $link, 25%) !default;
-$footer                    : #041E42 !default;
-$border                    : #007288 !default;
-$border-light              : #004F71 !default;
-$background-lighter        : mix(#fff, $background, 90%) !default;
+$footer                    : #041e42 !default;
+$border                    : #decfb7 !default;
+$border-light              : #efe2cf !default;
+$background-lighter        : #ffffff !default;
 
 /* Color codes used for the site */
 $danger-color               : #e74c3c;
-$info-color                 : #4effd9;
-$notice-color               : #30e3ca;
+$info-color                 : #007288;
+$notice-color               : #005f73;
 $success-color              : #2ecc71;
 $warning-color              : #f39c12;
 

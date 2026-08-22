@@ -1,152 +1,180 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Harrison F. Squires",
+    "label": "Experimental Biophysics PhD Student, University of Edinburgh",
+    "email": "harrisonsquires250@gmail.com",
+    "academicEmail": "harrison.squires@ed.ac.uk",
+    "phone": "+44 7450 940601",
+    "website": "",
+    "summary": "",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Edinburgh",
+      "countryCode": "UK",
+      "region": "Scotland"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "HFSquires",
+        "url": "https://github.com/HFSquires"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "University of Edinburgh",
+      "position": "Experimental Biophysics PhD",
+      "startDate": "Starting September 2026",
+      "endDate": "",
+      "summary": "Project: Towards machine olfaction, a new ISR modality, supervised by Prof. Davide Michieletto and Dr Neal Hopkins.",
+      "highlights": [
+        "Research focus: nucleic acid nanotechnology.",
+        "Recipient of SPADS CDT doctoral funding (£32k annual stipend).",
+        "Awarded an additional £10k annual Research Training Support Grant (RTSG) from the OCSA Bio Tech Centre."
+      ]
+    },
+    {
+      "company": "University of Edinburgh",
+      "position": "Bridging Research Intern",
+      "startDate": "June 2026",
+      "endDate": "August 2026",
+      "summary": "Project: DNA Nanostars, supervised by Prof. Davide Michieletto and Dr Jenny Harnett.",
+      "highlights": [
+        "Awarded bridging funding to undertake research prior to commencing PhD studies.",
+        "Investigated liquid-liquid phase separation in DNA nanostars and their potential application in lanthanide capture."
+      ]
+    },
+    {
+      "company": "University of Edinburgh",
+      "position": "MPhys Project",
+      "startDate": "September 2025",
+      "endDate": "May 2026",
+      "summary": "Project: Evaporation of Breath Figures, supervised by Dr. David Fairhurst and Dr. Joey Kilbride.",
+      "highlights": [
+        "Extended a recently published study by investigating the dynamics of the macroscopic edge effect in respiratory breath figures and its relation to droplet size distribution.",
+        "Designed and built an experimental set-up for imaging large droplet arrays.",
+        "Developed image analysis workflows using FIJI and Python.",
+        "Produced efficient scripts for data and statistical analysis."
+      ]
+    },
+    {
+      "company": "QinetiQ / University of Edinburgh",
+      "position": "Summer Research Intern",
+      "startDate": "June 2025",
+      "endDate": "August 2025",
+      "summary": "Project: Terahertz Methods for the Characterisation of Materials.",
+      "highlights": [
+        "Conducted a literature-based review aimed at advising the company's future research direction.",
+        "Summarised findings in a final report and developed a comparative table of practical trade-offs.",
+        "Funded by the University of Edinburgh through the Career Development Scholarship; project hosted by QinetiQ."
+      ]
+    },
+    {
+      "company": "University of Melbourne / Carbon Cybernetics",
+      "position": "Research Intern",
+      "startDate": "July 2024",
+      "endDate": "June 2025",
+      "summary": "Project: On the characterisation of carbon fibre electrodes for neural recording, supervised by Prof. Steven Prawer.",
+      "highlights": [
+        "Modelling of Intracortical Microwire Electrodes for Brain-Machine Interfaces. Manuscript in preparation. Contributing author.",
+        "Designed and built a bench-top testing system to optimise carbon fibre Micro Electrode Array (MEA) performance.",
+        "Undertook a meta-analysis of in vivo datasets to inform optimal MEA design.",
+        "Automated data acquisition and analysis workflows using MATLAB and Python.",
+        "Delivered weekly research presentations to the group, incorporating feedback to guide further development."
+      ]
+    },
+    {
+      "company": "Newman College, University of Melbourne",
+      "position": "Academic Tutor",
+      "startDate": "March 2025",
+      "endDate": "June 2025",
+      "summary": "",
+      "highlights": [
+        "Tutored first-year and second-year Bachelor of Science students at the University of Melbourne in Foundations of Physics (PHYC10009) and Quantum and Thermal Physics (PHYC20012).",
+        "Ran individual consultations and group tutorials.",
+        "Provided personalised academic support, tailoring sessions to address students' specific areas of difficulty.",
+        "Designed original resources and problem sets to help students engage with physics concepts in novel contexts."
+      ]
+    },
+    {
+      "company": "IJ Mellis",
+      "position": "Cheesemonger",
+      "startDate": "June 2023",
+      "endDate": "December 2023",
+      "summary": "",
+      "highlights": [
+        "Independently managed shop operations, including opening and closing responsibilities.",
+        "Completed specialised training in product knowledge and food safety.",
+        "Developed an expert knowledge of artisanal and regional cheeses."
+      ]
+    },
+    {
+      "company": "Jesuit Worldwide Learning",
+      "position": "English as a Second Language Tutor",
+      "startDate": "March 2025",
+      "endDate": "June 2025",
+      "summary": "",
+      "highlights": [
+        "Volunteer with Jesuit Worldwide Learning to support refugees in developing English language skills.",
+        "Provided personalised, one-on-one language support to a student in Kenya through meaningful, conversational engagement."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "The University of Edinburgh",
+      "area": "Master of Physics (MPhys), Physics with a Year Abroad",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "startDate": "2021",
+      "endDate": "2026",
+      "gpa": "First-Class Honours (75%)",
+      "courses": [
+        "Received the Margaret Campbell-Scott Scholarship for outstanding entry qualifications.",
+        "Awarded the Career Development Scholarship for summer project in conjunction with QinetiQ.",
+        "Achieved Certificates of Merit for academic excellence in my first two years.",
+        "Awarded the Junior Honours Class Medal for top performance in my third-year cohort.",
+        "Earned the Edinburgh Award for volunteering contributions to the University Sports Union (Jiu Jitsu Club).",
+        "Final-year focus: soft condensed matter, biological physics, and statistical physics."
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Hills Road Sixth Form College",
+      "area": "A-Levels in Maths, Physics, Chemistry, and EPQ",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "startDate": "2019",
+      "endDate": "2021",
       "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "courses": [
+        "Achieved three A*s at A-level and an A in the EPQ.",
+        "Designed a functional 3D robot using CAD software for my EPQ, tailored to competition standards.",
+        "Created widely-used Chemistry problem sheets benefiting hundreds of students."
+      ]
     }
   ],
   "skills": [],
   "languages": [],
   "interests": [],
-  "references": [],
-  "publications": [
+  "references": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Prof Davide Michieletto",
+      "url": "https://www.ph.ed.ac.uk/people/davide-michieletto",
+      "reference": "University of Edinburgh"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Dr David Fairhurst",
+      "url": "https://www.ph.ed.ac.uk/people/david-fairhurst",
+      "reference": "University of Edinburgh"
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Prof Steven Prawer",
+      "url": "https://findanexpert.unimelb.edu.au/profile/14454-steven-prawer",
+      "reference": "University of Melbourne"
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "publications": [],
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }

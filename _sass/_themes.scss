@@ -13,13 +13,13 @@ $doc-font-size              : 16;
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
-/* System typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+/* Computer Modern Serif stack */
+$cmu-serif                  : "CMU Serif", "Computer Modern Serif", "Computer Modern", Georgia, Times, serif;
 
-/* Computer Modern Sans stack */
-$cmu-sans                   : "CMU Sans Serif", "Computer Modern Sans", "Computer Modern", "CMU Sans", Arial, sans-serif;
+/* System typefaces */
+$serif                      : $cmu-serif;
+$sans-serif                 : $cmu-serif;
+$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* Sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -42,9 +42,9 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
-$global-font-family         : $cmu-sans;
-$header-font-family         : $cmu-sans;
-$caption-font-family        : $cmu-sans;
+$global-font-family         : $cmu-serif;
+$header-font-family         : $cmu-serif;
+$caption-font-family        : $cmu-serif;
 
 /* ==========================================================================
    Breakpoints

@@ -26,10 +26,10 @@ author:
   avatar           : "HarrisonSquires_Headshot.jpg"
   name             : "Harrison F. Squires"
   pronouns         : # example: "she/her"  
-  bio              : "Final Year MPhys Student @ The University of Edinburgh."
+  bio              : "Experimental Biophysics PhD Student."
   location         : "Edinburgh, United Kingdom."
   employer         : "The University of Edinburgh"
-  uri              : "https://hfsquires.github.io"
+  uri              :
   email            : "harrisonsquires250@gmail.com" 
 
   # Academic websites
@@ -64,7 +64,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : "squ.ires"
+  instagram        :
   lastfm           : # Username
   linkedin         : # Username
   mastodon         : # URL
