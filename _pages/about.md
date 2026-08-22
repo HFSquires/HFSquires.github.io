@@ -172,10 +172,10 @@ html {
 }
 
 .research-snapshot .reveal-on-scroll {
-  transform: translateY(1.35rem) scale(0.94);
+  transform: translateY(1.75rem) scale(0.91);
   transition:
-    opacity 1100ms ease,
-    transform 1350ms cubic-bezier(0.16, 1.55, 0.3, 1);
+    opacity 1000ms ease,
+    transform 1450ms cubic-bezier(0.15, 1.75, 0.28, 1);
 }
 
 .research-snapshot .reveal-on-scroll.is-visible {
