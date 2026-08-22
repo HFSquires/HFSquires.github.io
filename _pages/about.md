@@ -75,7 +75,8 @@ html {
   scroll-behavior: smooth;
 }
 
-.archive {
+.archive,
+.page {
   background: transparent;
   border: 0;
   box-shadow: none;
@@ -242,6 +243,20 @@ html {
 }
 
 @media (max-width: 760px) {
+  .home-panel {
+    min-height: auto;
+    padding: 3rem 0;
+  }
+
+  .portfolio-landing {
+    min-height: 78vh;
+  }
+
+  .portfolio-landing .home-panel__inner {
+    position: relative;
+    top: auto;
+  }
+
   .snapshot-grid {
     grid-template-columns: 1fr;
   }
