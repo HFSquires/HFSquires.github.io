@@ -36,7 +36,7 @@ Research Experience
 **Experimental Biophysics PhD, University of Edinburgh** *(Starting September 2026)*
 - **Project:** "Towards machine olfaction, a new ISR modality", supervised by Prof. Davide Michieletto and Dr Neal Hopkins.
 - Research focus: nucleic acid nanotechnology.
-- Recipient of SPADS CDT doctoral funding (£32k annual stipend).
+- Recipient of SPADS CDT doctoral funding.
 - Awarded an additional £10k annual Research Training Support Grant (RTSG) from the OCSA Bio Tech Centre.
 
 **University of Edinburgh** *(June 2026 – August 2026)*
