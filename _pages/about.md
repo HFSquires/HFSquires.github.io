@@ -14,8 +14,7 @@ redirect_from:
       <h1 class="home-title">Harrison F. Squires</h1>
       <p class="home-subtitle"><em>Experimental Biophysics PhD Student.</em><br><em>Nucleic acid nanotechnology, soft matter, and experimental physics.</em></p>
       <div class="landing-actions">
-        <a class="btn btn--primary" href="{{ '/files/cv.pdf' | relative_url }}" download><i class="fas fa-download" aria-hidden="true"></i> Download CV</a>
-        <a class="btn btn--inverse" href="{{ '/cv/' | relative_url }}"><i class="fas fa-file-lines" aria-hidden="true"></i> View CV</a>
+        <a class="btn btn--primary" href="{{ '/cv/' | relative_url }}"><i class="fas fa-file-lines" aria-hidden="true"></i> View CV</a>
       </div>
       <a class="scroll-cue" href="#research-snapshot" aria-label="Scroll to research snapshot">
         <i class="fas fa-chevron-down" aria-hidden="true"></i>
@@ -26,7 +25,7 @@ redirect_from:
   <section class="home-panel research-snapshot" id="research-snapshot">
     <div class="home-panel__inner">
       <p class="home-kicker">Current Direction</p>
-      <h2>Experimental biophysics, from soft matter systems to nucleic acid nanotechnology.</h2>
+      <h2>Highly interested in applying DNA nanotechnology to rare earth element recycling and biosensing.</h2>
       <div class="snapshot-grid">
         <article>
           <span>01</span>

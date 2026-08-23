@@ -28,7 +28,6 @@ Experimental Biophysics PhD Student, University of Edinburgh
 
 <div class="cv-actions">
   <a class="btn btn--primary" href="{{ '/files/cv.pdf' | relative_url }}" download><i class="fas fa-download" aria-hidden="true"></i> Download PDF</a>
-  <a class="btn btn--inverse" href="{{ '/files/cv.pdf' | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i> View PDF</a>
 </div>
 
 Research Experience
@@ -60,7 +59,7 @@ Research Experience
 
 **University of Melbourne / Carbon Cybernetics** *(July 2024 – June 2025)*
 *Research Intern*
-- **Project:** “On the characterisation of carbon fibre electrodes for neural recording”, supervised by Prof. Steven Prawer. (*[literature review]({{ "/files/Literature_Review_Formatted___PwYa.pdf" | relative_url }})*, *[project report]({{ "/files/On_The_Characterisation_Of_Carbon_Fibre_Electrodes_For_Neural_Recording_Report.pdf" | relative_url }})*)
+- **Project:** “On the characterisation of carbon fibre electrodes for neural recording”, supervised by Prof. Steven Prawer.
 - *Modelling of Intracortical Microwire Electrodes for Brain–Machine Interfaces.* Manuscript in preparation. Contributing author.
 - Designed and built a bench-top testing system to optimise carbon fibre Micro Electrode Array (MEA) performance.
 - Undertook a meta-analysis of *in vivo* datasets to inform optimal MEA design.

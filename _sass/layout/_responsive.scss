@@ -102,6 +102,10 @@
   .cv-profiles {
     gap: 0.55rem 1rem;
   }
+
+  .greedy-nav button {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 601px) and (max-width: 924px) {
@@ -174,26 +178,6 @@
     padding-right: 0.5rem;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
-
-  .greedy-nav button {
-    height: 1.9rem;
-    padding-right: 0;
-  }
-
-  .navicon,
-  .navicon::before,
-  .navicon::after {
-    width: 24px;
-    height: 3px;
-  }
-
-  .navicon::before {
-    top: -7px;
-  }
-
-  .navicon::after {
-    bottom: -7px;
   }
 
   .sidebar {
