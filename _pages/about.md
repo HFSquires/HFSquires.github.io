@@ -12,7 +12,7 @@ redirect_from:
     <div class="home-panel__inner">
       <div class="home-identity">
         <div class="home-portrait-wrap" aria-hidden="true">
-          <img class="home-portrait" src="{{ base_path }}/images/HarrisonSquires_Headshot.jpg" alt="">
+          <img class="home-portrait" src="{{ site.url }}{{ site.baseurl }}/images/HarrisonSquires_Headshot.jpg?v=7" alt="">
         </div>
         <div class="home-copy">
           <p class="home-kicker">University of Edinburgh</p>
@@ -51,7 +51,7 @@ redirect_from:
         </article>
       </div>
       <div class="logo-wrap">
-        <img class="edinburgh-logo" src="{{ base_path }}/images/edinburgh-official.svg" alt="University of Edinburgh logo">
+        <img class="edinburgh-logo" src="{{ site.url }}{{ site.baseurl }}/images/edinburgh-official.svg" alt="University of Edinburgh logo">
       </div>
     </div>
   </section>
