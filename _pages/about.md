@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-author_profile: true
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
@@ -10,11 +10,18 @@ redirect_from:
 <div class="home-scroll" data-snap-home>
   <section class="home-panel portfolio-landing text-center" id="home-intro">
     <div class="home-panel__inner">
-      <p class="home-kicker">University of Edinburgh</p>
-      <h1 class="home-title">Harrison F. Squires</h1>
-      <p class="home-subtitle"><em>Experimental Biophysics PhD Student.</em><br><em>Nucleic acid nanotechnology, soft matter, and experimental physics.</em></p>
-      <div class="landing-actions">
-        <a class="btn btn--primary" href="{{ '/cv/' | relative_url }}"><i class="fas fa-file-lines" aria-hidden="true"></i> View CV</a>
+      <div class="home-identity">
+        <div class="home-portrait-wrap" aria-hidden="true">
+          <img class="home-portrait" src="{{ site.url }}{{ site.baseurl }}/images/HarrisonSquires_Headshot.jpg?v=7" alt="">
+        </div>
+        <div class="home-copy">
+          <p class="home-kicker">University of Edinburgh</p>
+          <h1 class="home-title">Harrison F. Squires</h1>
+          <p class="home-subtitle"><em>Experimental Biophysics PhD Student.</em><br><em>Nucleic acid nanotechnology, soft matter, and experimental physics.</em></p>
+          <div class="landing-actions">
+            <a class="btn btn--primary" href="{{ '/cv/' | relative_url }}"><i class="fas fa-file-lines" aria-hidden="true"></i> View CV</a>
+          </div>
+        </div>
       </div>
       <a class="scroll-cue" href="#research-snapshot" aria-label="Scroll to research snapshot">
         <i class="fas fa-chevron-down" aria-hidden="true"></i>
@@ -44,7 +51,7 @@ redirect_from:
         </article>
       </div>
       <div class="logo-wrap">
-        <img class="edinburgh-logo" src="{{ base_path }}/images/edinburgh-official.svg" alt="University of Edinburgh logo">
+        <img class="edinburgh-logo" src="{{ site.url }}{{ site.baseurl }}/images/edinburgh-official.svg" alt="University of Edinburgh logo">
       </div>
     </div>
   </section>
@@ -90,7 +97,7 @@ html {
 }
 
 .home-panel__inner {
-  width: min(920px, 100%);
+  width: min(980px, 100%);
   margin: 0 auto;
   text-align: center;
 }
@@ -105,6 +112,34 @@ html {
   transform: translateY(calc(var(--hero-progress, 0) * -0.4rem)) scale(calc(1 - (var(--hero-progress, 0) * 0.08)));
   transform-origin: center;
   transition: transform 360ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.home-identity {
+  display: grid;
+  justify-items: center;
+  gap: clamp(1.2rem, 3vw, 2rem);
+}
+
+.home-portrait-wrap {
+  width: clamp(8.5rem, 18vw, 14rem);
+  aspect-ratio: 1;
+  padding: 0.38rem;
+  background: var(--global-bg-color);
+  border: 2px solid var(--global-dark-border-color);
+  border-radius: 50%;
+}
+
+.home-portrait {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.home-copy {
+  max-width: 960px;
 }
 
 .portfolio-landing .home-title {
@@ -128,6 +163,10 @@ html {
   letter-spacing: 0.12em;
   margin-bottom: 1rem !important;
   text-transform: uppercase;
+}
+
+.portfolio-landing .landing-actions {
+  justify-content: center;
 }
 
 .scroll-cue {
@@ -254,6 +293,22 @@ html {
   .portfolio-landing .home-panel__inner {
     position: relative;
     top: auto;
+  }
+
+  .home-identity {
+    gap: 1.15rem;
+  }
+
+  .home-portrait-wrap {
+    width: min(52vw, 10.5rem);
+  }
+
+  .portfolio-landing .home-title {
+    font-size: clamp(2.65rem, 14vw, 4rem);
+  }
+
+  .portfolio-landing .home-subtitle {
+    font-size: clamp(1.05rem, 6vw, 1.45rem);
   }
 
   .snapshot-grid {
