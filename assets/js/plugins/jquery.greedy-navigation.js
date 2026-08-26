@@ -14,6 +14,22 @@ var $hlinks = $('#site-nav .hidden-links');
 var breaks = [];
 
 function updateNav() {
+  while ($hlinks.children().length > 0) {
+    $hlinks.children().first().appendTo($vlinks);
+  }
+  breaks = [];
+  $btn.addClass('hidden');
+  $btn.removeClass('close');
+  $hlinks.addClass('hidden');
+
+  var mastheadHeight = $('.masthead').height();
+  $('body').css('padding-top', mastheadHeight + 'px');
+  if ($(".author__urls-wrapper button").is(":visible")) {
+    $(".sidebar").css("padding-top", "");
+  } else {
+    $(".sidebar").css("padding-top", mastheadHeight + "px");
+  }
+  return;
 
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
@@ -74,9 +90,11 @@ function updateNav() {
 $(window).on('resize', function () {
   updateNav();
 });
-screen.orientation.addEventListener("change", function () {
-  updateNav();
-});
+if (screen.orientation) {
+  screen.orientation.addEventListener("change", function () {
+    updateNav();
+  });
+}
 
 $btn.on('click', function () {
   $hlinks.toggleClass('hidden');

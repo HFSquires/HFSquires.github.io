@@ -2,6 +2,79 @@
    RESPONSIVE OPTIMISATION
    ========================================================================== */
 
+.greedy-nav button,
+.greedy-nav button.hidden,
+.greedy-nav .hidden-links {
+  display: none !important;
+}
+
+@media screen and (min-width: 1181px) {
+  #main,
+  .masthead__inner-wrap {
+    max-width: min(1380px, calc(100vw - 8rem));
+  }
+
+  .page {
+    max-width: 980px;
+  }
+
+  .cv-container {
+    max-width: 1020px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  #main,
+  .masthead__inner-wrap {
+    max-width: 1420px;
+  }
+
+  .page__content {
+    max-width: 72ch;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .greedy-nav {
+    min-width: 0;
+  }
+
+  .greedy-nav button,
+  .greedy-nav button.hidden {
+    display: none !important;
+  }
+
+  .greedy-nav .visible-links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: clamp(0.8rem, 3vw, 2rem);
+  }
+
+  .greedy-nav .hidden-links {
+    display: none !important;
+  }
+
+  .greedy-nav a {
+    margin: 0;
+  }
+
+  .masthead__menu-item {
+    font-size: clamp(1rem, 2.5vw, 1.35rem);
+  }
+
+  .masthead__menu-item--lg {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding-right: 0;
+  }
+
+  .masthead__menu-item--lg a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
 @media screen and (max-width: 924px) {
   body {
     padding-top: 4.35rem;
@@ -104,7 +177,7 @@
   }
 
   .greedy-nav button {
-    display: none;
+    display: none !important;
   }
 }
 
