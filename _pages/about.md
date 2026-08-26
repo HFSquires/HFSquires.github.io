@@ -86,7 +86,16 @@ html {
   background: transparent;
   border: 0;
   box-shadow: none;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
   padding: 0;
+  width: 100%;
+}
+
+.page__content {
+  max-width: none;
 }
 
 .home-panel {
