@@ -2,7 +2,7 @@
   "basics": {
     "name": "Harrison F. Squires",
     "label": "Experimental Biophysics PhD Student, University of Edinburgh",
-    "email": "harrisonsquires250@gmail.com",
+    "email": "",
     "academicEmail": "harrison.squires@ed.ac.uk",
     "phone": "+44 7450 940601",
     "website": "",
@@ -137,19 +137,6 @@
         "Awarded the Junior Honours Class Medal for top performance in my third-year cohort.",
         "Earned the Edinburgh Award for volunteering contributions to the University Sports Union (Jiu Jitsu Club).",
         "Final-year focus: soft condensed matter, biological physics, and statistical physics."
-      ]
-    },
-    {
-      "institution": "Hills Road Sixth Form College",
-      "area": "A-Levels in Maths, Physics, Chemistry, and EPQ",
-      "studyType": "",
-      "startDate": "2019",
-      "endDate": "2021",
-      "gpa": null,
-      "courses": [
-        "Achieved three A*s at A-level and an A in the EPQ.",
-        "Designed a functional 3D robot using CAD software for my EPQ, tailored to competition standards.",
-        "Created widely-used Chemistry problem sheets benefiting hundreds of students."
       ]
     }
   ],

@@ -23,8 +23,7 @@ Experimental Biophysics PhD Student, University of Edinburgh
 
 
 **Phone**: [+44 7450 940601](tel:+447450940601)<br>
-**Personal Email**: [harrisonsquires250@gmail.com](mailto:harrisonsquires250@gmail.com)<br>
-**Academic Email**: [harrison.squires@ed.ac.uk](mailto:harrison.squires@ed.ac.uk)
+**Email**: [harrison.squires@ed.ac.uk](mailto:harrison.squires@ed.ac.uk)
 
 <div class="cv-actions">
   <a class="btn btn--primary" href="{{ '/files/cv.pdf' | relative_url }}" download><i class="fas fa-download" aria-hidden="true"></i> Download PDF</a>
@@ -77,12 +76,6 @@ Education
 - Awarded the Junior Honours Class Medal for top performance in my third-year cohort.
 - Earned the Edinburgh Award for volunteering contributions to the University Sports Union (Jiu Jitsu Club).
 - Final-year focus: soft condensed matter (experiment and theory), biological physics, and statistical physics.
-
-**Hills Road Sixth Form College** *(2019 – 2021)*
-*A-Levels in Maths, Physics, Chemistry, and EPQ*
-- Achieved three A\*s at A-level and an A in the EPQ.
-- Designed a functional 3D robot using CAD software for EPQ, tailored to competition standards.
-- Created widely-used Chemistry problem sheets benefiting hundreds of students.
 
 Employment History
 ======
