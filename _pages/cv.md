@@ -96,8 +96,8 @@ Volunteering
 ======
 **Jesuit Worldwide Learning** *(March 2025 – June 2025)*
 *English as a Second Language Tutor*
-- Volunteer with Jesuit Worldwide Learning to support refugees in developing English language skills.
-- Provide personalised, one-on-one language support to a student in Kenya through meaningful, conversational engagement.
+- Volunteered with Jesuit Worldwide Learning to support refugees in developing English language skills.
+- Provided personalised, one-on-one language support to a student in Kenya through meaningful, conversational engagement.
 
 References
 ======
