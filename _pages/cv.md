@@ -31,8 +31,8 @@ Experimental Biophysics PhD Student, University of Edinburgh
 
 Research Experience
 ======
-**Experimental Biophysics PhD, University of Edinburgh** *(Starting September 2026)*
-- **Project:** "Towards machine olfaction, a new ISR modality", supervised by Prof. Davide Michieletto and Dr Neal Hopkins.
+**Experimental Biophysics PhD, University of Edinburgh** *(September 2026 – Present)*
+- **Project:** "Towards machine olfaction, a new ISR modality", supervised by Prof. Davide Michieletto (Academic) and Dr Neal Hopkins (Industry; Dtsl).
 - Research focus: nucleic acid nanotechnology.
 - Recipient of SPADS CDT doctoral funding.
 - Awarded an additional £10k annual Research Training Support Grant (RTSG) from the OCSA Bio Tech Centre.
@@ -41,7 +41,7 @@ Research Experience
 *Bridging Research Intern*
 - Awarded bridging funding to undertake research prior to commencing PhD studies.
 - **Project:** "DNA Nanostars", supervised by Prof. Davide Michieletto and Dr Jenny Harnett.
-- Investigated liquid-liquid phase separation in DNA nanostars and their potential application in lanthanide capture.
+- Investigated liquid-liquid phase separation in DNA nanostars and their potential application in Lanthanide capture.
 
 **MPhys Project, University of Edinburgh** *(September 2025 – May 2026)*
 - **Project:** “Evaporation of Breath Figures”, supervised by Dr. David Fairhurst and Dr. Joey Kilbride.
@@ -97,7 +97,7 @@ Volunteering
 **Jesuit Worldwide Learning** *(March 2025 – June 2025)*
 *English as a Second Language Tutor*
 - Volunteer with Jesuit Worldwide Learning to support refugees in developing English language skills.
-- Provided personalised, one-on-one language support to a student in Kenya through meaningful, conversational engagement.
+- Provide personalised, one-on-one language support to a student in Kenya through meaningful, conversational engagement.
 
 References
 ======

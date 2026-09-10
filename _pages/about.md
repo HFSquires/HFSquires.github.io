@@ -32,7 +32,7 @@ redirect_from:
   <section class="home-panel research-snapshot" id="research-snapshot">
     <div class="home-panel__inner">
       <p class="home-kicker">Current Direction</p>
-      <h2>Highly interested in applying DNA nanotechnology to rare earth element recycling and biosensing.</h2>
+      <h2>I’m interested in applying DNA nanotechnology to rare earth element recycling and biosensing.</h2>
       <div class="snapshot-grid">
         <article>
           <span>01</span>
