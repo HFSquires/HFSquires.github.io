@@ -15,6 +15,74 @@ redirect_from:
     opacity 620ms ease,
     transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
 }
+
+.page__content > h1:first-of-type {
+  margin-bottom: 0.35rem;
+  color: var(--global-text-color);
+  font-size: clamp(2.15rem, 4vw, 3.2rem);
+  line-height: 1;
+}
+
+.page__content > h1:first-of-type + p {
+  margin-bottom: 1.25rem;
+  color: var(--global-text-color-light);
+  font-size: 1.08rem;
+}
+
+.cv-markdown {
+  margin-top: 2.25rem;
+}
+
+.cv-markdown h1 {
+  position: relative;
+  margin: 3rem 0 1.35rem;
+  color: var(--global-text-color);
+  font-size: clamp(1.65rem, 2.6vw, 2.25rem);
+  line-height: 1.05;
+}
+
+.cv-markdown h1 {
+  padding-top: 1.15rem;
+  border-top: 2px solid rgba(183, 0, 56, 0.18);
+}
+
+.cv-markdown p:has(> strong:first-child) {
+  margin: 1.9rem 0 0.25rem;
+  font-size: 1.08rem;
+  line-height: 1.35;
+}
+
+.cv-markdown p:has(> strong:first-child) strong {
+  color: var(--global-text-color);
+  font-size: 1.06em;
+}
+
+.cv-markdown p:has(> strong:first-child) em:first-of-type {
+  color: var(--global-link-color);
+}
+
+.cv-markdown p:has(> strong:first-child) em:not(:first-of-type) {
+  color: var(--global-text-color-light);
+}
+
+.cv-markdown ul {
+  margin-bottom: 1.35rem;
+}
+
+.cv-markdown li {
+  margin-bottom: 0.45rem;
+}
+
+@media (max-width: 760px) {
+  .page__content > h1:first-of-type {
+    font-size: clamp(2rem, 11vw, 2.7rem);
+  }
+
+  .cv-markdown h1 {
+    font-size: 1.55rem;
+  }
+
+}
 </style>
 
 # Harrison F. Squires
@@ -28,6 +96,8 @@ Experimental Biophysics PhD Student, University of Edinburgh
 <div class="cv-actions">
   <a class="btn btn--primary" href="{{ '/files/cv.pdf' | relative_url }}" download><i class="fas fa-download" aria-hidden="true"></i> Download PDF</a>
 </div>
+
+<div class="cv-markdown" markdown="1">
 
 Research Experience
 ======
@@ -104,3 +174,5 @@ References
 - [Prof Steven Prawer](https://findanexpert.unimelb.edu.au/profile/14454-steven-prawer), University of Melbourne.
 
 Contact details available on request.
+
+</div>

@@ -47,34 +47,32 @@ redirect_from:
         <article>
           <span>03</span>
           <h3>Methods</h3>
-          <p>Experimental design, imaging workflows, FIJI, Python, MATLAB, and statistical data analysis.</p>
+          <p>Experimental design, microscopy, image analysis, FIJI, Python, MATLAB, and LaTeX.</p>
         </article>
       </div>
       <div class="methods-belt" aria-label="Methods and tools">
         <div class="methods-track">
           <div class="methods-group">
+            <span class="method-chip"><i class="fas fa-dna" aria-hidden="true"></i> DNA Nanotechnology</span>
+            <span class="method-chip"><i class="fas fa-image" aria-hidden="true"></i> FIJI</span>
             <span class="method-chip"><i class="fab fa-python" aria-hidden="true"></i> Python</span>
             <span class="method-chip"><i class="fas fa-square-root-variable" aria-hidden="true"></i> MATLAB</span>
-            <span class="method-chip"><i class="fas fa-image" aria-hidden="true"></i> FIJI</span>
-            <span class="method-chip"><i class="fas fa-chart-line" aria-hidden="true"></i> Data Analysis</span>
-            <span class="method-chip"><i class="fas fa-dna" aria-hidden="true"></i> DNA Nanotechnology</span>
-            <span class="method-chip"><i class="fas fa-flask" aria-hidden="true"></i> Experimental Design</span>
             <span class="method-chip"><i class="fas fa-microscope" aria-hidden="true"></i> Microscopy</span>
+            <span class="method-chip"><i class="fas fa-chart-line" aria-hidden="true"></i> Image Analysis</span>
             <span class="method-chip"><i class="fas fa-atom" aria-hidden="true"></i> Soft Matter</span>
+            <span class="method-chip"><i class="fas fa-flask" aria-hidden="true"></i> Experimental Design</span>
             <span class="method-chip"><i class="fas fa-file-lines" aria-hidden="true"></i> LaTeX</span>
-            <span class="method-chip"><i class="fab fa-github" aria-hidden="true"></i> GitHub</span>
           </div>
           <div class="methods-group" aria-hidden="true">
+            <span class="method-chip"><i class="fas fa-dna" aria-hidden="true"></i> DNA Nanotechnology</span>
+            <span class="method-chip"><i class="fas fa-image" aria-hidden="true"></i> FIJI</span>
             <span class="method-chip"><i class="fab fa-python" aria-hidden="true"></i> Python</span>
             <span class="method-chip"><i class="fas fa-square-root-variable" aria-hidden="true"></i> MATLAB</span>
-            <span class="method-chip"><i class="fas fa-image" aria-hidden="true"></i> FIJI</span>
-            <span class="method-chip"><i class="fas fa-chart-line" aria-hidden="true"></i> Data Analysis</span>
-            <span class="method-chip"><i class="fas fa-dna" aria-hidden="true"></i> DNA Nanotechnology</span>
-            <span class="method-chip"><i class="fas fa-flask" aria-hidden="true"></i> Experimental Design</span>
             <span class="method-chip"><i class="fas fa-microscope" aria-hidden="true"></i> Microscopy</span>
+            <span class="method-chip"><i class="fas fa-chart-line" aria-hidden="true"></i> Image Analysis</span>
             <span class="method-chip"><i class="fas fa-atom" aria-hidden="true"></i> Soft Matter</span>
+            <span class="method-chip"><i class="fas fa-flask" aria-hidden="true"></i> Experimental Design</span>
             <span class="method-chip"><i class="fas fa-file-lines" aria-hidden="true"></i> LaTeX</span>
-            <span class="method-chip"><i class="fab fa-github" aria-hidden="true"></i> GitHub</span>
           </div>
         </div>
       </div>
