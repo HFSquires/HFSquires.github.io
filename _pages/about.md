@@ -297,12 +297,18 @@ html {
 }
 
 .snapshot-grid article {
+  position: relative;
   min-height: 13rem;
   padding: 1.25rem;
   background: var(--global-thead-color);
   border: 1px solid var(--global-dark-border-color);
   border-radius: 8px;
   box-shadow: 0 14px 35px rgba(31, 45, 53, 0.07);
+  transform-origin: center;
+  transition:
+    border-color 280ms ease,
+    box-shadow 320ms ease,
+    transform 360ms cubic-bezier(0.18, 1.35, 0.28, 1);
 }
 
 .snapshot-grid span {
@@ -416,6 +422,14 @@ html {
 }
 
 @media (hover: hover) and (pointer: fine) {
+  .research-snapshot .snapshot-grid article:hover,
+  .research-snapshot .snapshot-grid article.reveal-on-scroll.is-visible:hover {
+    z-index: 2;
+    border-color: rgba(183, 0, 56, 0.24);
+    box-shadow: 0 18px 42px rgba(31, 45, 53, 0.1);
+    transform: translateY(-0.28rem) scale(1.05);
+  }
+
   .home-portrait-wrap:hover {
     border-color: rgba(183, 0, 56, 0.34);
     transform: scale(1.025);
@@ -512,7 +526,8 @@ html {
   }
 
   .home-portrait-wrap,
-  .home-portrait-wrap::after {
+  .home-portrait-wrap::after,
+  .snapshot-grid article {
     animation: none;
     transition: none;
   }
