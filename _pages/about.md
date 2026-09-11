@@ -50,6 +50,34 @@ redirect_from:
           <p>Experimental design, imaging workflows, FIJI, Python, MATLAB, and statistical data analysis.</p>
         </article>
       </div>
+      <div class="methods-belt" aria-label="Methods and tools">
+        <div class="methods-track">
+          <div class="methods-group">
+            <span class="method-chip"><i class="fab fa-python" aria-hidden="true"></i> Python</span>
+            <span class="method-chip"><i class="fas fa-square-root-variable" aria-hidden="true"></i> MATLAB</span>
+            <span class="method-chip"><i class="fas fa-image" aria-hidden="true"></i> FIJI</span>
+            <span class="method-chip"><i class="fas fa-chart-line" aria-hidden="true"></i> Data Analysis</span>
+            <span class="method-chip"><i class="fas fa-dna" aria-hidden="true"></i> DNA Nanotechnology</span>
+            <span class="method-chip"><i class="fas fa-flask" aria-hidden="true"></i> Experimental Design</span>
+            <span class="method-chip"><i class="fas fa-microscope" aria-hidden="true"></i> Microscopy</span>
+            <span class="method-chip"><i class="fas fa-atom" aria-hidden="true"></i> Soft Matter</span>
+            <span class="method-chip"><i class="fas fa-file-lines" aria-hidden="true"></i> LaTeX</span>
+            <span class="method-chip"><i class="fab fa-github" aria-hidden="true"></i> GitHub</span>
+          </div>
+          <div class="methods-group" aria-hidden="true">
+            <span class="method-chip"><i class="fab fa-python" aria-hidden="true"></i> Python</span>
+            <span class="method-chip"><i class="fas fa-square-root-variable" aria-hidden="true"></i> MATLAB</span>
+            <span class="method-chip"><i class="fas fa-image" aria-hidden="true"></i> FIJI</span>
+            <span class="method-chip"><i class="fas fa-chart-line" aria-hidden="true"></i> Data Analysis</span>
+            <span class="method-chip"><i class="fas fa-dna" aria-hidden="true"></i> DNA Nanotechnology</span>
+            <span class="method-chip"><i class="fas fa-flask" aria-hidden="true"></i> Experimental Design</span>
+            <span class="method-chip"><i class="fas fa-microscope" aria-hidden="true"></i> Microscopy</span>
+            <span class="method-chip"><i class="fas fa-atom" aria-hidden="true"></i> Soft Matter</span>
+            <span class="method-chip"><i class="fas fa-file-lines" aria-hidden="true"></i> LaTeX</span>
+            <span class="method-chip"><i class="fab fa-github" aria-hidden="true"></i> GitHub</span>
+          </div>
+        </div>
+      </div>
       <div class="logo-wrap">
         <img class="edinburgh-logo" src="{{ site.url }}{{ site.baseurl }}/images/edinburgh-official.svg" alt="University of Edinburgh logo">
       </div>
@@ -81,6 +109,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.home-scroll {
+  overflow-x: hidden;
+  overflow-x: clip;
+  width: 100%;
+}
+
 .archive,
 .page {
   background: transparent;
@@ -108,6 +142,7 @@ html {
 .home-panel__inner {
   width: min(980px, 100%);
   margin: 0 auto;
+  min-width: 0;
   text-align: center;
 }
 
@@ -130,12 +165,27 @@ html {
 }
 
 .home-portrait-wrap {
+  position: relative;
   width: clamp(8.5rem, 18vw, 14rem);
   aspect-ratio: 1;
   padding: 0.38rem;
   background: var(--global-bg-color);
   border: 2px solid var(--global-dark-border-color);
   border-radius: 50%;
+  transition:
+    border-color 320ms ease,
+    transform 420ms cubic-bezier(0.18, 1.35, 0.28, 1);
+}
+
+.home-portrait-wrap::after {
+  position: absolute;
+  inset: -0.45rem;
+  border: 1px solid rgba(183, 0, 56, 0.22);
+  border-radius: 50%;
+  content: "";
+  opacity: 0;
+  transform: scale(0.96);
+  pointer-events: none;
 }
 
 .home-portrait {
@@ -270,6 +320,73 @@ html {
   font-size: 0.98rem;
 }
 
+.methods-belt {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin: 2rem auto 0;
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--global-dark-border-color);
+  border-bottom: 1px solid var(--global-dark-border-color);
+  background: rgba(255, 250, 242, 0.42);
+}
+
+.methods-belt::before,
+.methods-belt::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  width: min(7rem, 16vw);
+  pointer-events: none;
+  content: "";
+}
+
+.methods-belt::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--global-bg-color), rgba(247, 241, 230, 0));
+}
+
+.methods-belt::after {
+  right: 0;
+  background: linear-gradient(270deg, var(--global-bg-color), rgba(247, 241, 230, 0));
+}
+
+.methods-track {
+  display: flex;
+  width: max-content;
+  gap: 0.7rem;
+  animation: methods-conveyor 34s linear infinite;
+}
+
+.methods-group {
+  display: flex;
+  gap: 0.7rem;
+  padding-right: 0.7rem;
+}
+
+.method-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 2.35rem;
+  padding: 0.45rem 0.78rem;
+  color: var(--global-text-color);
+  background: var(--global-thead-color);
+  border: 1px solid var(--global-dark-border-color);
+  border-radius: 999px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.method-chip i {
+  color: var(--global-link-color);
+  font-size: 0.95em;
+}
+
 .logo-wrap {
   margin-top: 1.5rem;
 }
@@ -286,6 +403,45 @@ html {
   }
   50% {
     transform: translateY(0.35rem);
+  }
+}
+
+@keyframes methods-conveyor {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .home-portrait-wrap:hover {
+    border-color: rgba(183, 0, 56, 0.34);
+    transform: scale(1.025);
+  }
+
+  .home-portrait-wrap:hover::after {
+    animation: portrait-pulse 1400ms ease-out infinite;
+  }
+
+  .methods-belt:hover .methods-track {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes portrait-pulse {
+  0% {
+    opacity: 0.62;
+    transform: scale(0.96);
+  }
+  70% {
+    opacity: 0;
+    transform: scale(1.08);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.08);
   }
 }
 
@@ -327,6 +483,16 @@ html {
   .snapshot-grid article {
     min-height: auto;
   }
+
+  .methods-belt {
+    margin-top: 1.4rem;
+  }
+
+  .method-chip {
+    min-height: 2.15rem;
+    padding: 0.38rem 0.65rem;
+    font-size: 0.84rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -343,6 +509,23 @@ html {
   .portfolio-landing .home-panel__inner {
     transform: none;
     transition: none;
+  }
+
+  .home-portrait-wrap,
+  .home-portrait-wrap::after {
+    animation: none;
+    transition: none;
+  }
+
+  .methods-track {
+    animation: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+  }
+
+  .methods-group[aria-hidden="true"] {
+    display: none;
   }
 }
 </style>
