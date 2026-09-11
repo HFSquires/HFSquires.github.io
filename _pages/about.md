@@ -42,7 +42,7 @@ redirect_from:
         <article>
           <span>02</span>
           <h3>Recent Work</h3>
-          <p>DNA nanostars, breath figures, terahertz methods, and carbon fibre electrodes for neural recording.</p>
+          <p>DNA nanostars, DNA aptamers, and carbon fibre electrodes for neural recording.</p>
         </article>
         <article>
           <span>03</span>
