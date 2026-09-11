@@ -16,6 +16,20 @@ redirect_from:
     transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+.page__content .cv-reveal-item {
+  opacity: 0;
+  transform: translateY(1rem);
+  transition:
+    opacity 760ms ease,
+    transform 860ms cubic-bezier(0.16, 1, 0.3, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.page__content .cv-reveal-item.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .page__content > h1:first-of-type {
   margin-bottom: 0.35rem;
   color: var(--global-text-color);

@@ -16,6 +16,9 @@
     ".archive > ul",
     ".archive > ol",
     ".archive__item",
+    ".cv-markdown > h1",
+    ".cv-markdown > p",
+    ".cv-markdown > ul",
     ".cv-section"
   ].join(", ");
 
@@ -30,9 +33,12 @@
     }
 
     items.forEach(function (item, index) {
-      var isCvItem = window.location.pathname.indexOf("/cv") === 0 || item.closest(".cv-container");
+      var isCvItem = window.location.pathname.indexOf("/cv") === 0 || item.closest(".cv-container, .cv-markdown");
       var delayStep = isCvItem ? 45 : 110;
       item.classList.add("reveal-on-scroll");
+      if (isCvItem) {
+        item.classList.add("cv-reveal-item");
+      }
       item.style.setProperty("--reveal-delay", Math.min(index % 6, 5) * delayStep + "ms");
     });
 
