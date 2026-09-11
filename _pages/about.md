@@ -32,7 +32,7 @@ redirect_from:
   <section class="home-panel research-snapshot" id="research-snapshot">
     <div class="home-panel__inner">
       <p class="home-kicker">Current Direction</p>
-      <h2>I’m interested in applying DNA nanotechnology to rare earth element recycling and biosensing.</h2>
+      <h2>I’m interested in applying DNA nanotechnology to rare-earth-element recycling and biosensing.</h2>
       <div class="snapshot-grid">
         <article>
           <span>01</span>
@@ -166,13 +166,24 @@ html {
   position: relative;
   width: clamp(8.5rem, 18vw, 14rem);
   aspect-ratio: 1;
-  padding: 0.38rem;
+  padding: 0.42rem;
   background: var(--global-bg-color);
   border: 2px solid var(--global-dark-border-color);
   border-radius: 50%;
+  box-shadow: 0 0 0 0.42rem rgba(255, 250, 242, 0.72);
   transition:
     border-color 320ms ease,
+    box-shadow 320ms ease,
     transform 420ms cubic-bezier(0.18, 1.35, 0.28, 1);
+}
+
+.home-portrait-wrap::before {
+  position: absolute;
+  inset: 0.18rem;
+  border: 1px solid rgba(183, 0, 56, 0.14);
+  border-radius: 50%;
+  content: "";
+  pointer-events: none;
 }
 
 .home-portrait-wrap::after {
@@ -259,8 +270,14 @@ html {
   animation: cue-pulse 3.8s ease-in-out infinite;
 }
 
-.scroll-cue:hover {
-  box-shadow: 0 14px 32px rgba(31, 45, 53, 0.16);
+.home-scroll.is-hero-scrolled .scroll-cue:hover {
+  box-shadow: 0 15px 34px rgba(31, 45, 53, 0.16);
+  transform: translateY(0.12rem) scale(0.98);
+}
+
+.home-scroll.is-hero-scrolled .scroll-cue:active {
+  box-shadow: 0 6px 16px rgba(31, 45, 53, 0.12);
+  transform: translateY(0.28rem) scale(0.94);
 }
 
 .research-snapshot {
@@ -430,6 +447,7 @@ html {
 
   .home-portrait-wrap:hover {
     border-color: rgba(183, 0, 56, 0.34);
+    box-shadow: 0 0 0 0.5rem rgba(255, 250, 242, 0.82);
     transform: scale(1.025);
   }
 
@@ -460,11 +478,11 @@ html {
 @media (max-width: 760px) {
   .home-panel {
     min-height: auto;
-    padding: 3rem 0;
+    padding: 2.55rem 0;
   }
 
   .portfolio-landing {
-    min-height: 78vh;
+    min-height: 76vh;
   }
 
   .portfolio-landing .home-panel__inner {
@@ -473,19 +491,25 @@ html {
   }
 
   .home-identity {
-    gap: 1.15rem;
+    gap: 1rem;
   }
 
   .home-portrait-wrap {
-    width: min(52vw, 10.5rem);
+    width: min(48vw, 9.75rem);
+    box-shadow: 0 0 0 0.34rem rgba(255, 250, 242, 0.72);
   }
 
   .portfolio-landing .home-title {
-    font-size: clamp(2.65rem, 14vw, 4rem);
+    font-size: clamp(2.45rem, 12.5vw, 3.65rem);
   }
 
   .portfolio-landing .home-subtitle {
-    font-size: clamp(1.05rem, 6vw, 1.45rem);
+    font-size: clamp(1rem, 5.3vw, 1.28rem);
+    line-height: 1.35;
+  }
+
+  .scroll-cue {
+    margin-top: 1.45rem;
   }
 
   .snapshot-grid {
@@ -524,6 +548,7 @@ html {
   }
 
   .home-portrait-wrap,
+  .home-portrait-wrap::before,
   .home-portrait-wrap::after,
   .snapshot-grid article {
     animation: none;

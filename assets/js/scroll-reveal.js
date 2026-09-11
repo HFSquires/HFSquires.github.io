@@ -66,9 +66,47 @@
     });
   }
 
+  function initCvSectionCue() {
+    if (window.location.pathname.indexOf("/cv") !== 0 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      return;
+    }
+
+    var headings = Array.prototype.slice.call(document.querySelectorAll(".cv-markdown > h1"));
+    if (headings.length === 0) {
+      return;
+    }
+
+    function setActive(heading) {
+      headings.forEach(function (item) {
+        item.classList.toggle("is-active-section", item === heading);
+      });
+    }
+
+    function updateActiveSection() {
+      var trigger = window.innerHeight * 0.34;
+      var active = headings[0];
+
+      headings.forEach(function (heading) {
+        if (heading.getBoundingClientRect().top <= trigger) {
+          active = heading;
+        }
+      });
+
+      setActive(active);
+    }
+
+    updateActiveSection();
+    window.addEventListener("scroll", updateActiveSection, { passive: true });
+    window.addEventListener("resize", updateActiveSection);
+  }
+
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initScrollReveal);
+    document.addEventListener("DOMContentLoaded", function () {
+      initScrollReveal();
+      initCvSectionCue();
+    });
   } else {
     initScrollReveal();
+    initCvSectionCue();
   }
 }());

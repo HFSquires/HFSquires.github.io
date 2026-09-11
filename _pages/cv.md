@@ -49,10 +49,13 @@ redirect_from:
 
 .cv-markdown h1 {
   position: relative;
-  margin: 3rem 0 1.35rem;
+  margin: 3.25rem 0 1.45rem;
   color: var(--global-text-color);
   font-size: clamp(1.65rem, 2.6vw, 2.25rem);
   line-height: 1.05;
+  transition:
+    color 360ms ease,
+    border-color 360ms ease;
 }
 
 .cv-markdown h1 {
@@ -60,27 +63,40 @@ redirect_from:
   border-top: 2px solid rgba(183, 0, 56, 0.18);
 }
 
+.cv-markdown h1.is-active-section {
+  border-top-color: rgba(183, 0, 56, 0.46);
+  color: var(--global-base-color);
+}
+
 .cv-markdown p:has(> strong:first-child) {
-  margin: 1.9rem 0 0.25rem;
-  font-size: 1.08rem;
-  line-height: 1.35;
+  margin: 2.15rem 0 0.35rem;
+  font-size: 1.02rem;
+  line-height: 1.45;
 }
 
 .cv-markdown p:has(> strong:first-child) strong {
+  display: inline-block;
+  margin-right: 0.25rem;
   color: var(--global-text-color);
-  font-size: 1.06em;
+  font-size: 1.18em;
+  line-height: 1.2;
 }
 
 .cv-markdown p:has(> strong:first-child) em:first-of-type {
+  display: inline-block;
   color: var(--global-link-color);
+  font-size: 0.96em;
 }
 
 .cv-markdown p:has(> strong:first-child) em:not(:first-of-type) {
+  display: block;
+  margin-top: 0.18rem;
   color: var(--global-text-color-light);
+  font-size: 0.98em;
 }
 
 .cv-markdown ul {
-  margin-bottom: 1.35rem;
+  margin-bottom: 1.65rem;
 }
 
 .cv-markdown li {
@@ -88,14 +104,28 @@ redirect_from:
 }
 
 @media (max-width: 760px) {
+  .page__content {
+    padding-inline: 0.2rem;
+  }
+
   .page__content > h1:first-of-type {
     font-size: clamp(2rem, 11vw, 2.7rem);
   }
 
   .cv-markdown h1 {
+    margin-top: 2.45rem;
     font-size: 1.55rem;
   }
 
+  .cv-markdown p:has(> strong:first-child) {
+    margin-top: 1.65rem;
+    font-size: 1rem;
+  }
+
+  .cv-markdown p:has(> strong:first-child) strong,
+  .cv-markdown p:has(> strong:first-child) em:first-of-type {
+    display: block;
+  }
 }
 </style>
 
