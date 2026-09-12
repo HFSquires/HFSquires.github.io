@@ -455,9 +455,6 @@ html {
     animation: portrait-pulse 1400ms ease-out infinite;
   }
 
-  .methods-belt:hover .methods-track {
-    animation-play-state: paused;
-  }
 }
 
 @keyframes portrait-pulse {

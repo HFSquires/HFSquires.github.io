@@ -30,10 +30,12 @@
     "plotly.js-dist-min": "^3.3.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.47.2",
     "onchange": "^7.1.0",
     "uglify-js": "^3.17.4"
   },
   "scripts": {
+    "test:responsive": "playwright test",
     "uglify": "uglifyjs node_modules/jquery/dist/jquery.min.js node_modules/fitvids/dist/fitvids.min.js node_modules/jquery-smooth-scroll/jquery.smooth-scroll.min.js node_modules/plotly.js-dist-min/plotly.min.js assets/js/plugins/jquery.greedy-navigation.js assets/js/_main.js -c -m -o assets/js/main.min.js",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
     "build:js": "npm run uglify"

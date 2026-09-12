@@ -127,6 +127,179 @@ redirect_from:
     display: block;
   }
 }
+
+@media screen and (max-width: 1180px) {
+  #main {
+    display: block;
+    max-width: min(980px, calc(100vw - 2rem));
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #main .sidebar,
+  #main .archive {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 980px;
+    float: none;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #main .sidebar {
+    max-width: min(760px, 100%);
+  }
+
+  #main .sidebar {
+    position: relative;
+    top: auto;
+    -webkit-transform: none;
+    transform: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 0.7rem;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    float: none;
+    margin: 0 auto clamp(2rem, 4vw, 3rem);
+    padding: clamp(1.45rem, 4vw, 2rem) clamp(1rem, 4vw, 1.5rem);
+    overflow: visible;
+    background: rgba(255, 250, 242, 0.64);
+    border: 1px solid var(--global-dark-border-color);
+    border-radius: 8px;
+  }
+
+  #main .author__avatar {
+    display: block;
+    width: clamp(96px, 16vw, 118px);
+    margin: 0 auto;
+  }
+
+  #main .author__avatar img {
+    max-width: clamp(96px, 16vw, 118px);
+  }
+
+  #main .author__content {
+    display: block;
+    padding: 0;
+    text-align: center;
+  }
+
+  #main .sidebar .author__name {
+    font-size: clamp(1.5rem, 4.6vw, 2rem);
+    line-height: 1.05;
+  }
+
+  #main .author__bio {
+    max-width: 30rem;
+    margin: 0.35rem auto 0;
+    font-size: clamp(1rem, 2.8vw, 1.05rem);
+    line-height: 1.32;
+  }
+
+  #main .author__urls-wrapper {
+    margin-top: 0.25rem;
+  }
+
+  #main .author__urls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.55rem;
+  }
+
+  #main .author__urls li {
+    max-width: none;
+  }
+
+  #main .author__urls a {
+    align-items: center;
+    justify-content: center;
+    min-height: 2.25rem;
+    margin: 0;
+    padding: 0.38rem 0.68rem;
+    border: 1px solid var(--global-dark-border-color);
+    border-radius: 999px;
+    background: rgba(255, 250, 242, 0.82);
+    font-size: 1rem;
+    line-height: 1;
+  }
+}
+
+@media screen and (min-width: 925px) and (max-width: 1180px) {
+  #main .archive {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    padding: clamp(1.4rem, 3vw, 2rem);
+  }
+}
+
+@media screen and (max-width: 924px) {
+  #main {
+    max-width: min(760px, calc(100vw - 1.8rem));
+  }
+
+  #main .sidebar,
+  #main .archive {
+    max-width: 760px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #main {
+    max-width: none;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+  }
+
+  #main .sidebar {
+    margin-bottom: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1181px) {
+  #main {
+    display: grid;
+    grid-template-columns: minmax(240px, 300px) minmax(0, 1fr);
+    gap: clamp(2rem, 4vw, 3.5rem);
+    align-items: start;
+    max-width: min(1380px, calc(100vw - 5rem));
+  }
+
+  #main .sidebar {
+    position: sticky;
+    top: 6rem;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    max-height: calc(100vh - 7rem);
+    float: none;
+    padding-top: 0;
+    overflow-y: auto;
+  }
+
+  #main .author__bio {
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: normal;
+    hyphens: manual;
+  }
+
+  #main .archive {
+    width: 100%;
+    max-width: none;
+    float: none;
+    margin: 0;
+    padding: clamp(1.7rem, 3vw, 2.35rem);
+  }
+}
 </style>
 
 # Harrison F. Squires
