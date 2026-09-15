@@ -1,0 +1,18 @@
+.has-page-transitions #main {
+  transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+
+.has-page-transitions body.is-page-entering #main {
+  transform: translateY(0.18rem);
+}
+
+.has-page-transitions body.is-page-leaving #main {
+  transform: translateY(0.18rem);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .has-page-transitions #main {
+    transition: none;
+  }
+}
